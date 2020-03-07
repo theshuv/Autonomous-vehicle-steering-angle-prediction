@@ -1,15 +1,13 @@
 more data is here of my project https://drive.google.com/open?id=1mTZlO0LEltqINmRl-UoqhH6noMMS9woi
 
 
-# Autopilot [![](https://img.shields.io/github/license/sourcerer-io/hall-of-fame.svg?colorB=ff0000)](https://github.com/akshaybahadur21/Autopilot/blob/master/LICENSE.txt)  [![](https://img.shields.io/badge/Akshay-Bahadur-brightgreen.svg?colorB=ff0000)](https://akshaybahadur.com)
+Autonomeous Vehicle
 
 This code helps in getting the steering angle of self driving car. The inspiraion is taken from [Udacity Self driving car](https://github.com/udacity/CarND-Behavioral-Cloning-P3) module as well [End to End Learning for Self-Driving Cars](https://devblogs.nvidia.com/deep-learning-self-driving-cars/) module from NVIDIA
 
 The End to End Learning for Self-Driving Cars research paper can be found at (https://arxiv.org/abs/1604.07316)
 This repository uses convnets to predict steering angle according to the road. 
 
-1) Autopilot Version 1
-2) [Autopilot Version 2](https://github.com/akshaybahadur21/Autopilot/tree/master/Autopilot_V2)
 
 
 
@@ -41,25 +39,7 @@ If you face any problem, kindly raise an issue
 
 <img src="https://github.com/akshaybahadur21/Autopilot/blob/master/final.gif">
 
-## Autopilot V2 (NVIDIA Dataset based on real world)
 
-### Dataset
-Download the dataset at [here](https://github.com/SullyChen/driving-datasets) and extract into the repository folder
-
-### Python  Implementation
-
-1) Network Used- Convolutional Network
-2) Inspiration - End to End Learning for Self-Driving Cars by Nvidia
-
-If you face any problem, kindly raise an issue
-
-### Procedure
-
-1) First, run `LoadData_V2.py` which will get dataset from folder and store it in a pickle file after preprocessing.
-2) Now you need to have the data, run `Train_pilot.py` which will load data from pickle. After this, the training process begins.
-3) For testing it on the video, run `AutopilotApp_V2.py`
-
-<img src="https://github.com/akshaybahadur21/Autopilot/blob/master/v2.gif">
 
 ### References:
  
