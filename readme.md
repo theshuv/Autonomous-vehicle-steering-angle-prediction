@@ -34,9 +34,9 @@ If you face any problem, kindly raise an issue
 
 ### Procedure
 
-1) First, run `LoadData.py` which will get dataset from folder and store it in a pickle file.
-2) Now you need to have the data, run `TrainModel.py` which will load data from pickle and augment it. After this, the training process begins.
-3) For testing it on the video, run `DriveApp.py`
+1) First, run `LoadData.py or LoadData.ipynb` which will get dataset from folder and store it in a pickle file.
+2) Now you need to have the data, run `TrainModel.py or TrainModel.ipynb` which will load data from pickle and augment it. After this, the training process begins.
+3) For testing it on the video, run `DriveApp.py or DriveApp.ipynb`
 
 
 
